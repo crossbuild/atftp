@@ -141,7 +141,7 @@ int print_eng(double value, char *string, int size, char *format)
 /*
  * This is a strncpy function that take care of string NULL termination
  */
-inline char *Strncpy(char *to, const char *from, size_t size)
+char *Strncpy(char *to, const char *from, size_t size)
 {
      strncpy(to, from, size);
      if (size>0) 
