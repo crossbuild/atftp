@@ -23,11 +23,7 @@
 #include <unistd.h>
 #include <syslog.h>
 
-#if HAVE_ARGZ
 #include <argz.h>
-#else
-#include "argz.h"
-#endif
 
 #include <arpa/tftp.h>
 #include <string.h>

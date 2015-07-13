@@ -38,11 +38,7 @@
 #include <readline/history.h>
 #endif
 
-#if HAVE_ARGZ
 #include <argz.h>
-#else
-#include "argz.h"
-#endif
 
 #include "tftp.h"
 #include "tftp_io.h"
